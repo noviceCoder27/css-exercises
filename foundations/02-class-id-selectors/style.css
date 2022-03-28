@@ -1,0 +1,21 @@
+
+.text {
+    font-family: Verdana,"DejaVu Sans",sans-serif;
+    background-color: lightpink;
+}
+
+.second {
+    font-size: 24px;
+}
+
+#one {
+    color: blue;
+    font-size: 36px;
+}
+
+
+#two {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
