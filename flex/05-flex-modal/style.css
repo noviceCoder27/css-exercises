@@ -30,11 +30,16 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
+  border-radius: 50%; /* makes a circle */
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  
+/* flexbox prevents small items from shrinking to zero size during this removal of negative free space. The items will be floored at their min-content size — the size that they become if they take advantage of any soft wrapping opportunities available to them. */
+
+flex-shrink: 0; 
+
+/* since width of container is not defined smaller item(i.e icon) will be floored to min content*/
 }
 
 .close-button {
@@ -69,7 +74,6 @@ button.cancel {
 
 
 .modal {
-  border: 3px solid black;
   display: flex;
   gap: 16px;
   padding: 16px;
