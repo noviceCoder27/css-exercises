@@ -37,9 +37,9 @@ body {
   
 /* flexbox prevents small items from shrinking to zero size during this removal of negative free space. The items will be floored at their min-content size — the size that they become if they take advantage of any soft wrapping opportunities available to them. */
 
-flex-shrink: 0; 
 
-/* since width of container is not defined smaller item(i.e icon) will be floored to min content*/
+flex-shrink: 0;
+/* since width of the smaller item(i.e icon) will be floored to min content*/
 }
 
 .close-button {
@@ -90,4 +90,8 @@ button.cancel {
 
 .text {
   margin-bottom: 16px;
+}
+
+.container {
+  width: 500px;
 }
